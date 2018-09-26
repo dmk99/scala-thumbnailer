@@ -1,5 +1,7 @@
 # [scala-thumbnailer](http://rphillips-nz.github.io/scala-thumbnailer/)
 
+*Updated for Scala 2.12.6*
+
 A Scala library for generating thumbnails.
 
 The API uses streams rather than files. Supports the following file types:
@@ -11,6 +13,19 @@ The API uses streams rather than files. Supports the following file types:
 
 GPL v2.0
 
+## Including in your project
+
+In your `build.sbt` file add the following resolver:
+
+```
+    resolvers += Resolver.bintrayRepo("dmk99-dev","lib")
+```
+
+And add the following library:
+
+```
+    libraryDependencies += "nz.co.rossphillips" % "scala-thumbnailer" % "0.6.SNAPSHOT"
+```
 
 ## Usage
 
