@@ -60,23 +60,6 @@ And add the following library:
 	thumbnailer.setSize(100, 200)
 	thumbnailer.setShouldPadThumbnail(false)
 
-
-## Dependency Management
-
-**SBT**
-
-	libraryDependencies += "nz.co.rossphillips" % "scala-thumbnailer" % "0.4.0"
-
-**Maven**
-
-	<dependency>
-		<groupId>nz.co.rossphillips</groupId>
-		<artifactId>scala-thumbnailer</artifactId>
-		<version>0.4.0</version>
-	</dependency>
-
-- - -
-
 [Homepage](http://rphillips-nz.github.io/scala-thumbnailer/)
 
 Originally inspired by [java-thumbnailer](https://github.com/benjaminpick/java-thumbnailer).
